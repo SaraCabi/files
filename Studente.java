@@ -10,3 +10,11 @@ public class Studente{
   private final String cognome;
   private final String matricola;
   private final int annoNascita;
+
+public Studente (String nome, String cognome, String matricola, int annoNascita){
+  this.nome = nome;
+  this.cognome = cognome;
+  this.matricola = matricola;
+  this.annoNacita = annoNascita;
+}
+  
